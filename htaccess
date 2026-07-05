@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# Forzar HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-# Redirigir raíz al HTML
-RewriteCond %{HTTPS} on
-RewriteRule ^$ /centro-el-dorado.html [R=301,L]
