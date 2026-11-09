@@ -818,6 +818,42 @@ transform:translateY(-3px);
 box-shadow:0 12px 28px rgba(240,196,109,0.30);
 }
 
+/* ===================== SPOTIFY ===================== */
+
+.spotify-section{
+padding:40px 30px;
+text-align:center;
+}
+
+.spotify-title{
+font-family:'Cormorant Garamond',serif;
+font-size:30px;
+font-weight:500;
+margin-bottom:22px;
+}
+
+.spotify-wrap{
+max-width:480px;
+margin:0 auto;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:14px;
+}
+
+.spotify-link{
+font-size:13px;
+letter-spacing:1px;
+color:#C9A227;
+text-decoration:none;
+transition:.3s;
+}
+
+.spotify-link:hover{
+color:#b78533;
+text-decoration:underline;
+}
+
 /* ============================================================= */
 
 @media(max-width:1100px){
@@ -863,6 +899,7 @@ nav{ display:none; }
 <a href="#experiencias">EXPERIENCIAS</a>
 <a href="#agradecimientos">AGRADECIMIENTOS</a>
 <a href="#testimonios">TESTIMONIOS</a>
+<a href="#musica">MÚSICA</a>
 <a href="#comunidad">COMUNIDAD</a>
 <a href="#contacto">CONTACTO</a>
 <a href="https://api.whatsapp.com/send/?phone=%2B56994894634&text&type=phone_number&app_absent=0" target="_blank" class="gold-btn">WHATSAPP</a>
@@ -1040,6 +1077,19 @@ Hoy pongo al servicio de cada persona mi experiencia profesional, mi trayectoria
 
 </section>
 
+<!-- PLAYLIST SPOTIFY -->
+<section id="musica" class="section-box spotify-section">
+
+<div class="section-subtitle">MÚSICA</div>
+<h2 class="spotify-title">Playlist oficial Centro El Dorado</h2>
+
+<div class="spotify-wrap">
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5VyPYKngStRTHUAsLqufgJ?utm_source=generator&si=3b3f0e57f55e4766" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Playlist oficial Centro El Dorado en Spotify"></iframe>
+<a href="https://open.spotify.com/playlist/5VyPYKngStRTHUAsLqufgJ?si=e3c5b77394a6468b" target="_blank" rel="noopener" class="spotify-link">Abrir y seguir en Spotify ›</a>
+</div>
+
+</section>
+
 <!-- FOOTER -->
 <div class="footer-section" id="contacto">
 
@@ -1086,6 +1136,7 @@ Cada día es un momento para brillar.
 <div class="footer-col" id="comunidad">
 <div class="footer-col-title">Comunidad</div>
 <a href="https://chat.whatsapp.com/IczlxXU5Lon5LHmcBiCENk?mode=gi_t" target="_blank">Grupo privado WhatsApp</a>
+<a href="https://open.spotify.com/playlist/5VyPYKngStRTHUAsLqufgJ?si=e3c5b77394a6468b" target="_blank" rel="noopener">Playlist en Spotify</a>
 <p class="footer-comunidad-text">
 Un espacio de acompañamiento, contención y crecimiento consciente para quienes están listos para brillar.
 </p>
