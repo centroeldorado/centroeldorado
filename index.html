@@ -96,14 +96,14 @@ width:210px;
 nav{
 display:flex;
 align-items:center;
-gap:36px;
+gap:26px;
 }
 
 nav a{
 text-decoration:none;
 color:#3B352A;
-font-size:14px;
-letter-spacing:1px;
+font-size:13px;
+letter-spacing:.6px;
 position:relative;
 transition:.4s;
 white-space:nowrap;
@@ -111,6 +111,31 @@ white-space:nowrap;
 
 nav a:hover{
 color:#f0c46d;
+}
+
+nav a.gold-btn{
+padding:13px 24px;
+color:#111;
+}
+
+nav a.gold-btn:hover{
+color:#111;
+}
+
+.logo img{
+max-width:100%;
+}
+
+@media(max-width:1500px){
+header{ padding:28px 36px; }
+.logo img{ width:170px; }
+nav{ gap:18px; }
+nav a{ font-size:12px; letter-spacing:.4px; }
+nav a.gold-btn{ padding:11px 18px; }
+}
+
+@media(max-width:1150px){
+nav a:not(.gold-btn){ display:none; }
 }
 
 .gold-btn{
